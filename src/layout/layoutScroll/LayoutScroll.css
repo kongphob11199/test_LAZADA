@@ -1,0 +1,32 @@
+.LayoutScroll_container {
+  position: fixed;
+  width: 40px;
+  bottom: 40px;
+  left: 0;
+  z-index: 100;
+}
+.Scroll_Top {
+  height: 40px;
+  background-color: #f5f5f5;
+  border: 1px solid #fff;
+  line-height: 40px;
+  text-align: center;
+  margin: -1px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.Scroll_Top:hover .Scroll_Top svg {
+  fill: #f5893c !important;
+  stroke: #f5893c !important;
+}
+.Scroll_Top svg {
+  width: 20px;
+  height: 20px;
+  fill: #a1a1a1;
+  stroke: #a1a1a1;
+}
+.Scroll_Top svg :hover {
+  fill: #f5893c;
+  stroke: #f5893c;
+}
