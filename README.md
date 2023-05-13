@@ -1,2 +1,3 @@
 # test_LAZADA
-npm install    npmstart
+npm install    
+npm start
